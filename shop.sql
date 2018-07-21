@@ -27,3 +27,12 @@ insert into wdy_admin values
 (13, 'admin', md5('123abc'), 0, 0, 0),
 (42, 'wdy', md5('123456'), 0, 0, 0),
 (33, 'php', md5('123456'), 0, 0, 0),
+
+
+-- 创建session表
+create table `session` (
+  session_id varchar (40) not null default '',
+  session_content text,
+  last_time int not null default 0,
+  primary key (session_id)
+)charset=utf8 engine=myisam;

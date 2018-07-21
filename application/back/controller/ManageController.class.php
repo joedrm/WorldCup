@@ -10,7 +10,9 @@ class ManageController extends BaseController {
 
      public function indexAction(){
          // 验证是否有登录标识
-         session_start();
+         // session_start();
+         new SessionDB();
+
          if (!isset($_SESSION['is_login'])){
             // 没有
              $this->_jump('index.php?p=back&c=Admin&a=login');

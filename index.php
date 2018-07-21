@@ -23,7 +23,8 @@ function userAutoload($class_name){
         'BaseController' => FRAMEWORK_PATH.'BaseController.class.php',
         'BaseModel' => FRAMEWORK_PATH.'BaseModel.class.php',
         'Factory' => FRAMEWORK_PATH.'Factory.class.php',
-        'MySQLDB' => FRAMEWORK_PATH.'MySQLDB.class.php'
+        'MySQLDB' => FRAMEWORK_PATH.'MySQLDB.class.php',
+        'SessionDB' => TOOL_PATH.'SessionDB.class.php',
     );
 
     // 判断是否为核心类，是核心类就直接加载
@@ -54,6 +55,7 @@ spl_autoload_register("userAutoload");
 define('ROOT_PATH', getcwd().'/'); // getcwd()获得当前目录
 define('APPLICATION_PATH', ROOT_PATH.'application/');
 define('FRAMEWORK_PATH', ROOT_PATH.'framework/');
+define('TOOL_PATH', FRAMEWORK_PATH.'tool/');
 
 
 /**

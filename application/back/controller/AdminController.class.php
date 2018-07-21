@@ -35,7 +35,9 @@ class AdminController extends BaseController{
             //echo '<br/>合法，跳转到后台首页';
 
             // 利用 session 设置登录标识，
-            session_start();
+            //session_start();
+            new SessionDB();
+
             $_SESSION['is_login'] = 'yes';
 
             $this->_jump('index.php?p=back&c=Manage&a=index');
