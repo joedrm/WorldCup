@@ -1,0 +1,57 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>比赛列表</title>
+
+    <style type="text/css">
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .tab{
+            border-bottom-style: solid;
+            border-color: brown;
+            width: 50%;
+            height: 300px;
+            border: none;
+            /*position: absolute;*/
+            /*padding-left: 50%;*/
+            /*float: left;*/
+            /*left: 50%;*/
+        }
+
+        .tab tr{
+            border: none;
+        }
+
+        .tab tr td{
+            align-content: center;
+            text-align: center;
+            border: navy solid;
+        }
+    </style>
+</head>
+<body>
+
+<table border="1" class="tab">
+    <tr>
+        <td>球队一</td>
+        <td>比分</td>
+        <td>球队二</td>
+        <td>时间</td>
+    </tr>
+    <?php foreach ($match_list as $row):?>
+    <tr>
+        <td><a href="index.php?c=Team&a=info&id=TID"><?php echo $row['t1_name'];?></a></td>
+        <td><?php echo $row['t1_score'].':'.$row['t2_score'];?></td>
+        <td><?php echo $row['t2_name'];?></td>
+        <td><?php echo date('Y-m-d H:i', $row['m_time']);?></td>
+        <td><a href="index.php?p=test&c=Match&a=remove&id=N">删除</a></td>
+    </tr>
+    <?php endforeach;?>
+</table>
+</body>
