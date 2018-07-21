@@ -28,18 +28,18 @@ class SessionDB {
 
     function userSessionBegin() {
         //初始化DAO
-        $config = array(
-            'host'=>'localhost',
-            'port'=>'8889',
-            'username'=>'root',
-            'password'=>'123456',
-            'charset'=>'utf8',
-            'dbname'=>'shop'
-        );
-
-        $this->_dao = MySQLDB::getInstance($config);
-//        $config = $GLOBALS['config']['db'];
+//        $config = array(
+//            'host'=>'localhost',
+//            'port'=>'8889',
+//            'username'=>'root',
+//            'password'=>'123456',
+//            'charset'=>'utf8',
+//            'dbname'=>'shop'
+//        );
+//
 //        $this->_dao = MySQLDB::getInstance($config);
+        $config = $GLOBALS['config']['db'];
+        $this->_dao = MySQLDB::getInstance($config);
     }
     function userSessionEnd() {
         return true;

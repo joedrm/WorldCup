@@ -24,15 +24,16 @@ class BaseModel {
 //    }
 
     protected function _initDAO(){
-        $config = array(
-            'host'=>'localhost',
-            'port'=>'8889',
-            'username'=>'root',
-            'password'=>'123456',
-            'charset'=>'utf8',
-            'dbname'=>'shop'
-        );
+//        $config = array(
+//            'host'=>'localhost',
+//            'port'=>'8889',
+//            'username'=>'root',
+//            'password'=>'123456',
+//            'charset'=>'utf8',
+//            'dbname'=>'shop'
+//        );
 
+        $config = $GLOBALS['config']['db'];
         $this->_dao = MySQLDB::getInstance($config);
     }
 
