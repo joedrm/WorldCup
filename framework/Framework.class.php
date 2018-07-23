@@ -91,7 +91,7 @@ class Framework{
             'BaseModel' => FRAMEWORK_PATH.'BaseModel.class.php',
             'Factory' => FRAMEWORK_PATH.'Factory.class.php',
             'MySQLDB' => FRAMEWORK_PATH.'MySQLDB.class.php',
-            'SessionDB' => TOOL_PATH.'SessionDB.class.php',
+            'SessionDB' => TOOL_PATH.'SessionDB.class.php', // session工具类自动加载
         );
 
         // 判断是否为核心类，是核心类就直接加载

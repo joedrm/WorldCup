@@ -136,6 +136,13 @@ class MySQLDB{
         // 如果定义了__sleep方法，必须返回数组，才能进行序列化
         return array('host', 'port', 'username', 'password', 'charset', 'dbname');
     }
+
+    /**
+     * 转义用户数据，防止sql注入
+     */
+    public function escapeString($data){
+        return "'".mysql_real_escape_string($data, $this->resource)."'";
+    }
 }
 
 
