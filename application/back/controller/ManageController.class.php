@@ -6,18 +6,25 @@
  * Time: 下午5:27
  */
 
-class ManageController extends BaseController {
+class ManageController extends PlatformController {
 
      public function indexAction(){
-         // 验证是否有登录标识
-         // session_start();
-         new SessionDB();
+         require CURRENT_VIEW_PATH.'index.html';
+     }
 
-         if (!isset($_SESSION['is_login'])){
-            // 没有
-             $this->_jump('index.php?p=back&c=Admin&a=login');
-         }else{
-             echo '你好，这里是后台首页';
-         }
+     public function topAction(){
+         require CURRENT_VIEW_PATH.'top.html';
+     }
+
+     public function menuAction(){
+        require CURRENT_VIEW_PATH.'menu.html';
+     }
+
+     public function dragAction(){
+        require CURRENT_VIEW_PATH.'drag.html';
+     }
+
+     public function mainAction(){
+        require CURRENT_VIEW_PATH.'main.html';
      }
 }
