@@ -40,6 +40,7 @@ class Framework{
         define('CONFIG_PATH', APPLICATION_PATH . 'config/');
         define('FRAMEWORK_PATH', ROOT_PATH.'framework/');
         define('TOOL_PATH', FRAMEWORK_PATH.'tool/');
+        define('DAO_PATH', FRAMEWORK_PATH.'dao/');
     }
 
     /**
@@ -88,15 +89,18 @@ class Framework{
         $framework_class_list = array(
             // 类名 => '类文件地址'
             'BaseController' => FRAMEWORK_PATH.'BaseController.class.php',
-            'BaseModel' => FRAMEWORK_PATH.'BaseModel.class.php',
-            'Factory' => FRAMEWORK_PATH.'Factory.class.php',
-            'MySQLDB' => FRAMEWORK_PATH.'MySQLDB.class.php',
-            'SessionDB' => TOOL_PATH.'SessionDB.class.php', // session工具类自动加载
+            'BaseModel'     => FRAMEWORK_PATH.'BaseModel.class.php',
+            'Factory'       => FRAMEWORK_PATH.'Factory.class.php',
+            'MySQLDB' 		=> DAO_PATH . 'MySQLDB.class.php',
+            'PDODB' 		=> DAO_PATH . 'PDODB.class.php',
+            'I_DAO' 		=> DAO_PATH . 'I_DAO.interface.php',
+            'SessionDB'     => TOOL_PATH.'SessionDB.class.php', // session工具类自动加载
         );
 
         // 判断是否为核心类，是核心类就直接加载
         if (isset($framework_class_list[$class_name])){
             // 是核心类
+            //echo $class_name;
             require $framework_class_list[$class_name];
         }
 

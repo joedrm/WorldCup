@@ -21,6 +21,7 @@ return array(
     // 应用程序组
     'app' => array(
         'defualt_platform' => 'back',
+        'dao'  => 'mysql', // pdo
     ),
 
     // 后台组

@@ -10,31 +10,22 @@ class BaseModel {
 
     protected $_dao;
 
-//    protected function _initDAO(){
-//        $config = array(
-//            'host'=>'localhost',
-//            'port'=>'8889',
-//            'username'=>'root',
-//            'password'=>'123456',
-//            'charset'=>'utf8',
-//            'dbname'=>'wdy'
-//        );
-//
-//        $this->_dao = MySQLDB::getInstance($config);
-//    }
-
     protected function _initDAO(){
-//        $config = array(
-//            'host'=>'localhost',
-//            'port'=>'8889',
-//            'username'=>'root',
-//            'password'=>'123456',
-//            'charset'=>'utf8',
-//            'dbname'=>'shop'
-//        );
-
+        // 根据配置来选择 dao 类
         $config = $GLOBALS['config']['db'];
-        $this->_dao = MySQLDB::getInstance($config);
+
+        switch ($GLOBALS['config']['app']['dao']){
+            case 'mysql':
+                $dao_class = 'MySQLDB';
+                break;
+            default:
+                $dao_class = 'PDODB';
+                break;
+        }
+
+//        var_dump($dao_class);
+//        var_dump($config);
+        $this->_dao = $dao_class::getInstance($config);
     }
 
     public function __construct()

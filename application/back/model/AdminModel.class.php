@@ -30,6 +30,8 @@ class AdminModel extends BaseModel{
         $sql = "SELECT * FROM `wdy_admin` WHERE admin_name=$admin_name_escape and admin_pwd=md5($admin_pwd_escape)";
         $row = $this->_dao->getRow($sql);
 
+        //echo 'row'.$row;
+
         return (bool)$row;
     }
 

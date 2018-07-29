@@ -8,10 +8,10 @@
 
 interface I_DAO {
 
-    public function getInstance($config);
+    public static function getInstance($config);
     public function query($sql);
-    public function getAll();
-    public function getRow();
-    public function getOne();
-    public function escapeString();
+    public function getAll($sql);
+    public function getRow($sql);
+    public function getOne($sql);
+    public function escapeString($data);
 }
