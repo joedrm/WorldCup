@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1766999-7d47-48b9-af66-1d098781da44" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/back/controller/AdminController.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/back/controller/AdminController.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/back/controller/PlatformController.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/back/controller/PlatformController.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/back/model/AdminModel.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/back/model/AdminModel.class.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/back/view/top.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/back/view/top.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop.sql" beforeDir="false" afterPath="$PROJECT_DIR$/shop.sql" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,15 +32,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BaseModel.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/framework/BaseModel.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="application.config.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/config/application.config.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -67,11 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ManageController.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/back/controller/ManageController.class.php">
+      <file leaf-file-name="PlatformController.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/back/controller/PlatformController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+            <state relative-caret-position="483">
+              <caret line="41" column="35" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -79,17 +74,35 @@
       <file leaf-file-name="AdminController.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/back/controller/AdminController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="69" column="5" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
+            <state relative-caret-position="415">
+              <caret line="69" column="30" selection-start-line="69" selection-start-column="30" selection-end-line="69" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="top.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AdminModel.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/back/model/AdminModel.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shop.sql" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/shop.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="884">
+              <caret line="52" column="50" selection-start-line="52" selection-start-column="50" selection-end-line="52" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="top.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/back/view/top.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="205" column="6" lean-forward="true" selection-start-line="205" selection-start-column="6" selection-end-line="205" selection-end-column="6" />
+            <state relative-caret-position="381">
+              <caret line="216" column="104" selection-start-line="216" selection-start-column="104" selection-end-line="216" selection-end-column="104" />
             </state>
           </provider>
         </entry>
@@ -108,15 +121,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-562">
               <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="shop.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shop.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -161,16 +165,17 @@
         <option value="$PROJECT_DIR$/application/back/controller/ManageController.class.php" />
         <option value="$PROJECT_DIR$/framework/dao/I_DAO.interface.php" />
         <option value="$PROJECT_DIR$/framework/dao/MySQLDB.class.php" />
-        <option value="$PROJECT_DIR$/application/back/model/AdminModel.class.php" />
         <option value="$PROJECT_DIR$/framework/BaseModel.class.php" />
         <option value="$PROJECT_DIR$/framework/dao/PDODB.class.php" />
         <option value="$PROJECT_DIR$/application/config/application.config.php" />
         <option value="$PROJECT_DIR$/framework/Framework.class.php" />
-        <option value="$PROJECT_DIR$/application/back/controller/PlatformController.class.php" />
         <option value="$PROJECT_DIR$/application/back/view/login.html" />
         <option value="$PROJECT_DIR$/framework/tool/Captcha.class.php" />
-        <option value="$PROJECT_DIR$/application/back/controller/AdminController.class.php" />
+        <option value="$PROJECT_DIR$/application/back/model/AdminModel.class.php" />
+        <option value="$PROJECT_DIR$/application/back/controller/PlatformController.class.php" />
         <option value="$PROJECT_DIR$/application/back/view/top.html" />
+        <option value="$PROJECT_DIR$/application/back/controller/AdminController.class.php" />
+        <option value="$PROJECT_DIR$/shop.sql" />
       </list>
     </option>
   </component>
@@ -236,6 +241,13 @@
               <item name="application" type="462c0819:PsiDirectoryNode" />
               <item name="back" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WorldCup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WorldCup" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="back" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WorldCup" type="b2602c69:ProjectViewProjectNode" />
@@ -339,12 +351,12 @@
       <workItem from="1532909951228" duration="7000" />
       <workItem from="1533083267842" duration="2992000" />
       <workItem from="1533214193706" duration="977000" />
-      <workItem from="1533452584861" duration="1105000" />
+      <workItem from="1533452584861" duration="3525000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51865000" />
+    <option name="totallyTimeSpent" value="54285000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -634,13 +646,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/back/model/AdminModel.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/framework/dao/PDODB.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1462">
@@ -677,24 +682,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/back/controller/PlatformController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/back/controller/ManageController.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -743,17 +734,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/back/controller/AdminController.class.php">
+    <entry file="file://$PROJECT_DIR$/application/back/model/AdminModel.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="69" column="5" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
+        <state relative-caret-position="493">
+          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/back/controller/PlatformController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="41" column="35" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/back/view/top.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="205" column="6" lean-forward="true" selection-start-line="205" selection-start-column="6" selection-end-line="205" selection-end-column="6" />
+        <state relative-caret-position="381">
+          <caret line="216" column="104" selection-start-line="216" selection-start-column="104" selection-end-line="216" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/back/controller/AdminController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="69" column="30" selection-start-line="69" selection-start-column="30" selection-end-line="69" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" column="50" selection-start-line="52" selection-start-column="50" selection-end-line="52" selection-end-column="50" />
         </state>
       </provider>
     </entry>

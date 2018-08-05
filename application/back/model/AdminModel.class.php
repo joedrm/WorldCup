@@ -14,7 +14,7 @@ class AdminModel extends BaseModel{
      * @param $admin_name
      * @param $admin_pwd
      *
-     * @return bool
+     * @return mixed 合法：管理员信息数组，非法：false
      */
     public function check($admin_name, $admin_pwd){
 
@@ -32,7 +32,7 @@ class AdminModel extends BaseModel{
 
         //echo 'row'.$row;
 
-        return (bool)$row;
+        return $row;
     }
 
 }

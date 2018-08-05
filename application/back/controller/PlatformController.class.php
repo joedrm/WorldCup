@@ -34,7 +34,12 @@ class PlatformController extends BaseController {
             return ;
         }
 
-        if (!isset($_SESSION['is_login'])){
+//        if (!isset($_SESSION['is_login'])){
+//            // 没有
+//            $this->_jump('index.php?p=back&c=Admin&a=login');
+//        }
+
+        if (!isset($_SESSION['admin'])){
             // 没有
             $this->_jump('index.php?p=back&c=Admin&a=login');
         }

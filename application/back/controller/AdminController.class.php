@@ -22,10 +22,10 @@ class AdminController extends BaseController{
     public function checkAction(){
 
         // 校验验证码
-        $t_captcha = new Captcha();
-        if (! $t_captcha->checkCaptcha($_POST['captcha'])){
-            $this->_jump('index.php?p=back&c=Admin&a=login', '验证码错误');
-        }
+//        $t_captcha = new Captcha();
+//        if (! $t_captcha->checkCaptcha($_POST['captcha'])){
+//            $this->_jump('index.php?p=back&c=Admin&a=login', '验证码错误');
+//        }
 
         // 获得表单数据
         $admin_name = $_POST["username"];
@@ -36,7 +36,8 @@ class AdminController extends BaseController{
 
         // 从数据库中验证管理员信息是否合法
         $m_admin = Factory::M('AdminModel');
-        if ($m_admin->check($admin_name, $admin_pwd)){
+        $admin_info = $m_admin->check($admin_name, $admin_pwd);
+        if ($admin_info){
             // 验证通过
 //            echo '<br/>合法，跳转到后台首页';
 
@@ -44,7 +45,8 @@ class AdminController extends BaseController{
             //session_start();
             new SessionDB();
 
-            $_SESSION['is_login'] = 'yes';
+            //$_SESSION['is_login'] = 'yes';
+            $_SESSION['admin'] = $admin_info; // 登录标识，管理员信息
 
             $this->_jump('index.php?p=back&c=Manage&a=index');
         }else{
@@ -65,7 +67,7 @@ class AdminController extends BaseController{
      */
     public function logoutAction(){
 
-        unset($_SESSION['is_login']);
+        unset($_SESSION['admin']);
         $this->_jump('index.php?p=back&c=Admin&a=login');
     }
 }
