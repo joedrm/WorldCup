@@ -95,6 +95,7 @@ class Framework{
             'PDODB' 		=> DAO_PATH . 'PDODB.class.php',
             'I_DAO' 		=> DAO_PATH . 'I_DAO.interface.php',
             'SessionDB'     => TOOL_PATH.'SessionDB.class.php', // session工具类自动加载
+            'Captcha'     => TOOL_PATH.'Captcha.class.php',
         );
 
         // 判断是否为核心类，是核心类就直接加载

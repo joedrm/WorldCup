@@ -21,6 +21,12 @@ class AdminController extends BaseController{
      */
     public function checkAction(){
 
+        // 校验验证码
+        $t_captcha = new Captcha();
+        if (! $t_captcha->checkCaptcha($_POST['captcha'])){
+            $this->_jump('index.php?p=back&c=Admin&a=login', '验证码错误');
+        }
+
         // 获得表单数据
         $admin_name = $_POST["username"];
         $admin_pwd = $_POST["password"];
@@ -32,7 +38,7 @@ class AdminController extends BaseController{
         $m_admin = Factory::M('AdminModel');
         if ($m_admin->check($admin_name, $admin_pwd)){
             // 验证通过
-            //echo '<br/>合法，跳转到后台首页';
+//            echo '<br/>合法，跳转到后台首页';
 
             // 利用 session 设置登录标识，
             //session_start();
@@ -42,8 +48,16 @@ class AdminController extends BaseController{
 
             $this->_jump('index.php?p=back&c=Manage&a=index');
         }else{
-            //echo '<br/>非法，登录失败，跳转到后台登录页面index.php?p=back&c=Admin&c=login';
+//            echo '<br/>非法，登录失败，跳转到后台登录页面index.php?p=back&c=Admin&c=login';
             $this->_jump('index.php?p=back&c=Admin&a=login', '管理员信息非法');
         }
     }
+
+    // 生成登录页面的验证码
+    public function captchaAction(){
+
+        $t_captcha = new Captcha();
+        $t_captcha->generate();
+    }
+
 }

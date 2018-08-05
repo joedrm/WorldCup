@@ -2,15 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1766999-7d47-48b9-af66-1d098781da44" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/framework/tool/Captcha.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/tool/captcha/captcha_bg1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/tool/captcha/captcha_bg1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/tool/captcha/captcha_bg2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/tool/captcha/captcha_bg2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/tool/captcha/captcha_bg3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/tool/captcha/captcha_bg3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/tool/captcha/captcha_bg4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/tool/captcha/captcha_bg4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/tool/captcha/captcha_bg5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/tool/captcha/captcha_bg5.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/back/model/AdminModel.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/back/model/AdminModel.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/config/application.config.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/config/application.config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/BaseModel.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/BaseModel.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/back/controller/AdminController.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/back/controller/AdminController.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/back/controller/PlatformController.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/back/controller/PlatformController.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/back/view/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/back/view/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/back/view/top.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/back/view/top.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/framework/Framework.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/Framework.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/MySQLDB.class.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/dao/I_DAO.interface.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/dao/I_DAO.interface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/dao/MySQLDB.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/dao/MySQLDB.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/dao/PDODB.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/dao/PDODB.class.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,7 +47,7 @@
         <entry file="file://$PROJECT_DIR$/framework/BaseModel.class.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -47,44 +55,65 @@
       <file leaf-file-name="application.config.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/config/application.config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+            <state relative-caret-position="170">
+              <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Factory.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/framework/Factory.class.php">
+      <file leaf-file-name="Captcha.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/framework/tool/Captcha.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="26" column="46" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
+            <state relative-caret-position="1309">
+              <caret line="82" column="23" lean-forward="true" selection-start-line="82" selection-start-column="23" selection-end-line="82" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseController.class.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/framework/BaseController.class.php">
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/back/view/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="502">
-              <caret line="35" column="23" lean-forward="true" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+            <state relative-caret-position="228">
+              <caret line="37" column="218" selection-start-line="37" selection-start-column="218" selection-end-line="37" selection-end-column="218" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#td#0;n#tr#3;n#table#0;n#td#1;n#tr#0;n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Framework.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/framework/Framework.class.php">
+      <file leaf-file-name="PlatformController.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/back/controller/PlatformController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="102" column="14" selection-start-line="102" selection-start-column="14" selection-end-line="102" selection-end-column="14" />
+            <state relative-caret-position="272">
+              <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PDODB.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/framework/dao/PDODB.class.php">
+      <file leaf-file-name="ManageController.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/back/controller/ManageController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1171">
-              <caret line="91" column="37" selection-start-line="91" selection-start-column="37" selection-end-line="91" selection-end-column="37" />
+            <state relative-caret-position="119">
+              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminController.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/back/controller/AdminController.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="453">
+              <caret line="65" column="26" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="top.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/back/view/top.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="338">
+              <caret line="202" column="14" lean-forward="true" selection-start-line="202" selection-start-column="14" selection-end-line="202" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -92,26 +121,17 @@
       <file leaf-file-name="SessionDB.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/framework/tool/SessionDB.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="30" column="26" lean-forward="true" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+            <state relative-caret-position="-562">
+              <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".htaccess" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/framework/.htaccess">
+      <file leaf-file-name="shop.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shop.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdminModel.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/back/model/AdminModel.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="425">
+              <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -143,7 +163,6 @@
         <option value="$PROJECT_DIR$/application/test/view/match_list_view.html" />
         <option value="$PROJECT_DIR$/application/test/controller/MatchController.class.php" />
         <option value="$PROJECT_DIR$/application/back/AdminController.class.php" />
-        <option value="$PROJECT_DIR$/application/back/view/login.html" />
         <option value="$PROJECT_DIR$/application/.htaccess" />
         <option value="$PROJECT_DIR$/framework/BaseController.class.php" />
         <option value="$PROJECT_DIR$/shop..sql" />
@@ -151,20 +170,22 @@
         <option value="$PROJECT_DIR$/framework/tool/SessionDB.class.php" />
         <option value="$PROJECT_DIR$/framework/MySQLDB.class.php" />
         <option value="$PROJECT_DIR$/application/back/view/index.html" />
-        <option value="$PROJECT_DIR$/application/back/view/top.html" />
         <option value="$PROJECT_DIR$/application/back/view/menu.html" />
         <option value="$PROJECT_DIR$/application/back/view/main.html" />
         <option value="$PROJECT_DIR$/application/back/view/drag.html" />
         <option value="$PROJECT_DIR$/application/back/controller/ManageController.class.php" />
-        <option value="$PROJECT_DIR$/application/back/controller/PlatformController.class.php" />
         <option value="$PROJECT_DIR$/framework/dao/I_DAO.interface.php" />
         <option value="$PROJECT_DIR$/framework/dao/MySQLDB.class.php" />
-        <option value="$PROJECT_DIR$/framework/Framework.class.php" />
-        <option value="$PROJECT_DIR$/application/back/controller/AdminController.class.php" />
         <option value="$PROJECT_DIR$/application/back/model/AdminModel.class.php" />
         <option value="$PROJECT_DIR$/framework/BaseModel.class.php" />
-        <option value="$PROJECT_DIR$/application/config/application.config.php" />
         <option value="$PROJECT_DIR$/framework/dao/PDODB.class.php" />
+        <option value="$PROJECT_DIR$/application/config/application.config.php" />
+        <option value="$PROJECT_DIR$/framework/Framework.class.php" />
+        <option value="$PROJECT_DIR$/application/back/controller/PlatformController.class.php" />
+        <option value="$PROJECT_DIR$/application/back/view/login.html" />
+        <option value="$PROJECT_DIR$/framework/tool/Captcha.class.php" />
+        <option value="$PROJECT_DIR$/application/back/view/top.html" />
+        <option value="$PROJECT_DIR$/application/back/controller/AdminController.class.php" />
       </list>
     </option>
   </component>
@@ -192,10 +213,9 @@
       <path value="$PROJECT_DIR$/../../bin/php/php5.6.32/lib/php" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="112" />
-    <option name="y" value="37" />
-    <option name="width" value="1226" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
     <option name="height" value="712" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -206,6 +226,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -236,13 +257,6 @@
               <item name="WorldCup" type="462c0819:PsiDirectoryNode" />
               <item name="application" type="462c0819:PsiDirectoryNode" />
               <item name="back" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WorldCup" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WorldCup" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="back" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -265,13 +279,18 @@
             <path>
               <item name="WorldCup" type="b2602c69:ProjectViewProjectNode" />
               <item name="WorldCup" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="tool" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WorldCup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WorldCup" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -285,14 +304,15 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/framework/tool" />
+      <recent name="$PROJECT_DIR$/framework" />
+      <recent name="$PROJECT_DIR$/web" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/framework" />
       <recent name="$PROJECT_DIR$/web/back" />
       <recent name="$PROJECT_DIR$/application/back/controller" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/framework" />
-      <recent name="$PROJECT_DIR$/web" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -330,12 +350,16 @@
       <workItem from="1532305997805" duration="3383000" />
       <workItem from="1532565598321" duration="204000" />
       <workItem from="1532739195416" duration="5893000" />
-      <workItem from="1532834327700" duration="8779000" />
+      <workItem from="1532834327700" duration="9035000" />
+      <workItem from="1532909951228" duration="7000" />
+      <workItem from="1533083267842" duration="2992000" />
+      <workItem from="1533214193706" duration="977000" />
+      <workItem from="1533452584861" duration="877000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46528000" />
+    <option name="totallyTimeSpent" value="51637000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -347,22 +371,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="23" width="1280" height="712" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="712" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49878934" visible="true" weight="0.2092084" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.0" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50080776" side_tool="true" weight="0.18048781" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49919224" weight="0.18048781" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49919224" weight="0.3284553" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49878934" visible="true" weight="0.2609047" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50080776" side_tool="true" weight="0.18048781" />
       <window_info anchor="right" id="Database" order="3" weight="0.32956383" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49919224" visible="true" weight="0.006504065" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49919224" weight="0.18048781" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" sideWeight="0.50121063" side_tool="true" weight="0.2536349" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49919224" weight="0.3284553" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="PHP-CGI Server" order="7" />
@@ -370,6 +393,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49919224" visible="true" weight="0.006504065" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -410,13 +434,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/back/model/AdminModel.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/back/controller/ManageController.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -445,13 +462,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/framework/MySQLDB.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1309">
-          <caret line="83" column="5" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/MySQLDB.class.php" />
     <entry file="file://$PROJECT_DIR$/application/back/model/AdminModel.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -487,13 +498,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/framework/MySQLDB.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1411">
-          <caret line="83" column="5" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/MySQLDB.class.php" />
     <entry file="file://$PROJECT_DIR$/application/back/model/AdminModel.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -602,13 +607,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" selection-start-line="31" selection-end-line="37" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -616,40 +614,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/back/view/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/back/view/top.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3757">
-          <caret line="221" column="14" selection-start-line="221" selection-start-column="14" selection-end-line="221" selection-end-column="14" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#7;n#ul#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#6514#6520#1" expanded="true" />
-            <element signature="e#7107#7113#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/back/view/menu.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9469">
           <caret line="557" column="14" selection-start-line="557" selection-start-column="14" selection-end-line="557" selection-end-column="14" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -657,28 +625,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8143">
           <caret line="479" column="14" selection-start-line="479" selection-start-column="14" selection-end-line="479" selection-end-column="14" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#strong#0;n#td#1;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#4057#4063#1" expanded="true" />
-            <element signature="e#4085#4091#1" expanded="true" />
-            <element signature="n#style#0;n#strong#0;n#td#3;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#strong#0;n#td#3;n#tr#1;n#tbody#0;n#table#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#10827#10833#0" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#strong#0;n#p#0;n#div#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#strong#1;n#p#0;n#div#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#div#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#a#0;n#p#1;n#div#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -696,23 +642,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/back/controller/PlatformController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/back/controller/ManageController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-          <folding>
-            <element signature="e#6#85#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/framework/dao/MySQLDB.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -727,30 +656,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/back/controller/AdminController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="34" column="14" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/application.config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/back/model/AdminModel.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="476">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/framework/dao/PDODB.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1171">
+        <state relative-caret-position="1462">
           <caret line="91" column="37" selection-start-line="91" selection-start-column="37" selection-end-line="91" selection-end-column="37" />
         </state>
       </provider>
@@ -758,31 +673,11 @@
     <entry file="file://$PROJECT_DIR$/framework/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/framework/tool/SessionDB.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="30" column="26" lean-forward="true" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework/MySQLDB.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="140" column="9" lean-forward="true" selection-start-line="140" selection-start-column="9" selection-end-line="140" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework/Framework.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="102" column="14" selection-start-line="102" selection-start-column="14" selection-end-line="102" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/MySQLDB.class.php" />
     <entry file="file://$PROJECT_DIR$/framework/Factory.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -790,17 +685,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/framework/BaseModel.class.php">
+    <entry file="file://$PROJECT_DIR$/framework/BaseController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="187">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/framework/BaseController.class.php">
+    <entry file="file://$PROJECT_DIR$/framework/Framework.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="35" column="23" lean-forward="true" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+        <state relative-caret-position="1564">
+          <caret line="97" column="59" selection-start-line="97" selection-start-column="59" selection-end-line="97" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/back/controller/PlatformController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/back/controller/ManageController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/BaseModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/application.config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/back/view/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="37" column="218" selection-start-line="37" selection-start-column="218" selection-end-line="37" selection-end-column="218" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#td#0;n#tr#3;n#table#0;n#td#1;n#tr#0;n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/tool/SessionDB.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-562">
+          <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/tool/Captcha.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1309">
+          <caret line="82" column="23" lean-forward="true" selection-start-line="82" selection-start-column="23" selection-end-line="82" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/back/controller/AdminController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="65" column="26" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/back/view/top.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="202" column="14" lean-forward="true" selection-start-line="202" selection-start-column="14" selection-end-line="202" selection-end-column="14" />
         </state>
       </provider>
     </entry>

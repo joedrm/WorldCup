@@ -26,7 +26,7 @@ class PlatformController extends BaseController {
         //验证是否具有登录标志
         //列出不需要登录验证的动作列表
         $no_list = array(
-            'Admin' => array('login', 'check'),
+            'Admin' => array('login', 'check', 'captcha'),
             //控制器名 => 当前控制器不需要验证的动作名列表数组
         );
         if(isset($no_list[CONTROLLER]) && in_array(ACTION, $no_list[CONTROLLER])) {
