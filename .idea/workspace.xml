@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1766999-7d47-48b9-af66-1d098781da44" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/application/back/model/GoodsModel.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/back/model/GoodsModel.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/config/application.config.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/config/application.config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/BaseModel.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/BaseModel.class.php" afterDir="false" />
-    </list>
+    <list default="true" id="c1766999-7d47-48b9-af66-1d098781da44" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,8 +64,8 @@
       <file leaf-file-name="AdminModel.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/back/model/AdminModel.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+            <state relative-caret-position="282">
+              <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -95,8 +91,8 @@
       <file leaf-file-name="GoodsModel.class.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/back/model/GoodsModel.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="226">
+              <caret line="22" column="51" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -174,7 +170,6 @@
         <option value="$PROJECT_DIR$/framework/Framework.class.php" />
         <option value="$PROJECT_DIR$/application/back/view/login.html" />
         <option value="$PROJECT_DIR$/framework/tool/Captcha.class.php" />
-        <option value="$PROJECT_DIR$/application/back/model/AdminModel.class.php" />
         <option value="$PROJECT_DIR$/application/back/controller/PlatformController.class.php" />
         <option value="$PROJECT_DIR$/application/back/view/top.html" />
         <option value="$PROJECT_DIR$/application/back/controller/AdminController.class.php" />
@@ -185,6 +180,7 @@
         <option value="$PROJECT_DIR$/application/config/application.config.php" />
         <option value="$PROJECT_DIR$/framework/BaseModel.class.php" />
         <option value="$PROJECT_DIR$/application/back/model/GoodsModel.class.php" />
+        <option value="$PROJECT_DIR$/application/back/model/AdminModel.class.php" />
       </list>
     </option>
   </component>
@@ -380,12 +376,12 @@
       <workItem from="1532909951228" duration="7000" />
       <workItem from="1533083267842" duration="2992000" />
       <workItem from="1533214193706" duration="977000" />
-      <workItem from="1533452584861" duration="8513000" />
+      <workItem from="1533452584861" duration="8743000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59273000" />
+    <option name="totallyTimeSpent" value="59503000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -763,13 +759,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/back/model/AdminModel.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/back/controller/PlatformController.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
@@ -798,10 +787,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/back/model/AdminModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/back/model/GoodsModel.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="226">
+          <caret line="22" column="51" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="51" />
         </state>
       </provider>
     </entry>

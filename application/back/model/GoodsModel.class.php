@@ -16,11 +16,12 @@ class GoodsModel extends BaseModel{
      * @return bool
      */
     public function inserGoods($data){
+        
+        $data['create_admin_id'] = $_SESSION['admin']['admin_id'];
 
         // 保证数据转义
         $escape_data = $this->escapteStringAll($data);
 
-        $data['create_admin_id'] = $_SESSION['admin']['admin_id'];
         //$sql = "insert into `goods` values (null , '{$data['goods_name']}', )";
         $sql = sprintf("insert into $this->_table values (null , %s, %s, '', '', '', '', %s, %s, %s, %s, %s);",
             $escape_data['goods_name'],
