@@ -32,4 +32,17 @@ class BaseModel {
     {
         $this->_initDAO();
     }
+
+    /**
+     * 转义数组内的所有元素
+     * @param $data array
+     * @return 转义后的数组
+     */
+    protected function escapteStringAll($data){
+
+        foreach ($data as $key=>$value){
+            $data[$key] = $this->_dao->escapeString($value);
+        }
+        return $data;
+    }
 }

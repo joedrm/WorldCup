@@ -13,18 +13,20 @@ class GoodsModel extends BaseModel{
      * @return bool
      */
     public function inserGoods($data){
-        // 先数据校验
+
+        // 保证数据转义
+        $escape_data = $this->escapteStringAll($data);
 
         $data['create_admin_id'] = $_SESSION['admin']['admin_id'];
         //$sql = "insert into `goods` values (null , '{$data['goods_name']}', )";
-        $sql = sprintf("insert into `goods` values (null , '%s', '%s', '', '', '', '', '%s', '%s', '%s', '%s', '%s');",
-            $data['goods_name'],
-            $data['shop_price'],
-            $data['goods_desc'],
-            $data['goods_number'],
-            $data['is_on_sale'],
-            $data['goods_promote'],
-            $data['create_admin_id']);
+        $sql = sprintf("insert into `goods` values (null , %s, %s, '', '', '', '', %s, %s, %s, %s, %s);",
+            $escape_data['goods_name'],
+            $escape_data['shop_price'],
+            $escape_data['goods_desc'],
+            $escape_data['goods_number'],
+            $escape_data['is_on_sale'],
+            $escape_data['goods_promote'],
+            $escape_data['create_admin_id']);
 
 //        var_dump($data);
 
