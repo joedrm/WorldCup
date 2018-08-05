@@ -60,4 +60,12 @@ class AdminController extends BaseController{
         $t_captcha->generate();
     }
 
+    /**
+     * 退出登录
+     */
+    public function logoutAction(){
+
+        unset($_SESSION['is_login']);
+        $this->_jump('index.php?p=back&c=Admin&a=login');
+    }
 }
