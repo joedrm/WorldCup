@@ -16,7 +16,7 @@ class GoodsModel extends BaseModel{
      * @return bool
      */
     public function inserGoods($data){
-        
+
         $data['create_admin_id'] = $_SESSION['admin']['admin_id'];
 
         // 保证数据转义
