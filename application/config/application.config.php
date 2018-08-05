@@ -21,7 +21,8 @@ return array(
     // 应用程序组
     'app' => array(
         'defualt_platform' => 'back',
-        'dao'  => 'mysql', // pdo
+        'dao'              => 'mysql', // pdo
+        'table_prefix'     => 'wdy_', // 表前缀
     ),
 
     // 后台组

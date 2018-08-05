@@ -9,6 +9,8 @@
 
 class AdminModel extends BaseModel{
 
+    protected $_logic_table = 'admin';
+
     /**
      * 验证管理员是否合法
      * @param $admin_name
@@ -27,7 +29,7 @@ class AdminModel extends BaseModel{
         $admin_name_escape = $this->_dao->escapeString($admin_name);
         $admin_pwd_escape = $this->_dao->escapeString($admin_pwd);
 
-        $sql = "SELECT * FROM `wdy_admin` WHERE admin_name=$admin_name_escape and admin_pwd=md5($admin_pwd_escape)";
+        $sql = "SELECT * FROM $this->_table WHERE admin_name=$admin_name_escape and admin_pwd=md5($admin_pwd_escape)";
         $row = $this->_dao->getRow($sql);
 
         //echo 'row'.$row;

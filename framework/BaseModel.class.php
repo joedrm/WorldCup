@@ -9,6 +9,7 @@
 class BaseModel {
 
     protected $_dao;
+    protected $_table;
 
     protected function _initDAO(){
         // 根据配置来选择 dao 类
@@ -31,6 +32,7 @@ class BaseModel {
     public function __construct()
     {
         $this->_initDAO();
+        $this->_initTable();
     }
 
     /**
@@ -44,5 +46,12 @@ class BaseModel {
             $data[$key] = $this->_dao->escapeString($value);
         }
         return $data;
+    }
+
+    /*
+     * 拼凑真实表名
+     */
+    protected function _initTable(){
+        $this->_table = '`'.$GLOBALS['config']['app']['table_prefix'].$this->_logic_table.'`';
     }
 }

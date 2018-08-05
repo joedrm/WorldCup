@@ -8,6 +8,9 @@
 
 class GoodsModel extends BaseModel{
 
+    protected $_logic_table = 'goods';
+
+
     /**
      * @param $data 商品关联数据
      * @return bool
@@ -19,7 +22,7 @@ class GoodsModel extends BaseModel{
 
         $data['create_admin_id'] = $_SESSION['admin']['admin_id'];
         //$sql = "insert into `goods` values (null , '{$data['goods_name']}', )";
-        $sql = sprintf("insert into `goods` values (null , %s, %s, '', '', '', '', %s, %s, %s, %s, %s);",
+        $sql = sprintf("insert into $this->_table values (null , %s, %s, '', '', '', '', %s, %s, %s, %s, %s);",
             $escape_data['goods_name'],
             $escape_data['shop_price'],
             $escape_data['goods_desc'],
@@ -29,6 +32,7 @@ class GoodsModel extends BaseModel{
             $escape_data['create_admin_id']);
 
 //        var_dump($data);
+//        die($sql);
 
         return $this->_dao->query($sql);
     }
