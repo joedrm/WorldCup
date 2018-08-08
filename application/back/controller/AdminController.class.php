@@ -22,10 +22,10 @@ class AdminController extends BaseController{
     public function checkAction(){
 
         // 校验验证码
-        $t_captcha = new Captcha();
-        if (! $t_captcha->checkCaptcha($_POST['captcha'])){
-            $this->_jump('index.php?p=back&c=Admin&a=login', '验证码错误');
-        }
+//        $t_captcha = new Captcha();
+//        if (! $t_captcha->checkCaptcha($_POST['captcha'])){
+//            $this->_jump('index.php?p=back&c=Admin&a=login', '验证码错误');
+//        }
 
         // 获得表单数据
         $admin_name = $_POST["username"];

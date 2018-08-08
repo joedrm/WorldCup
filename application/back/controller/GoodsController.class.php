@@ -12,7 +12,6 @@ class GoodsController extends PlatformController {
      * 商品添加表单
      */
     public function addAction(){
-
         require CURRENT_VIEW_PATH.'goods_add.html';
     }
 
@@ -30,6 +29,19 @@ class GoodsController extends PlatformController {
         $data['is_on_sale'] = isset($_POST['is_on_sale']) ? '1' : '0';
         // 推荐属性
         $data['goods_promote'] = isset($_POST['goods_promote']) ? implode(',', $_POST['goods_promote']) : '';
+        // 上传图片原图
+        $t_upload = new Upload();
+        $t_upload->upload_path = './web/upload/';
+        $t_upload->prefix = 'goods_ori_';
+        $result = $t_upload->uploadOne($_FILES['image_ori']);
+        if ($result){
+            // 上传成功
+            echo '上传成功：'.$result;
+            $data['goods_image_ori'] = $result;
+        }else{
+            // 上传失败
+            $this->_jump('index.php?p=back&c=Goods&a=add', '上传失败，<br/>'.$t_upload->getError());
+        }
 
 
         // 第二步：通过模型插入数据表

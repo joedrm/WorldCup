@@ -23,9 +23,10 @@ class GoodsModel extends BaseModel{
         $escape_data = $this->escapteStringAll($data);
 
         //$sql = "insert into `goods` values (null , '{$data['goods_name']}', )";
-        $sql = sprintf("insert into $this->_table values (null , %s, %s, '', '', '', '', %s, %s, %s, %s, %s);",
+        $sql = sprintf("insert into $this->_table values (null , %s, %s, '', '', '', %s, %s, %s, %s, %s, %s);",
             $escape_data['goods_name'],
             $escape_data['shop_price'],
+            $escape_data['goods_image_ori'],
             $escape_data['goods_desc'],
             $escape_data['goods_number'],
             $escape_data['is_on_sale'],
